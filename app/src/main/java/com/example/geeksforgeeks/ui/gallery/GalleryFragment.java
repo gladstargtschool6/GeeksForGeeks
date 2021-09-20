@@ -1,4 +1,4 @@
-package com.example.geeksforgeeks.ui.gallery;
+package com.wGladstarGTSchool_9279984.ui.gallery;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -27,7 +27,7 @@ public class GalleryFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
 
         WebView webView=root.findViewById(R.id.web_view_practice);
-        webView.loadUrl("https://practice.geeksforgeeks.org/");
+        webView.loadUrl("https://app.schoology.com/courses/");
         webView.setWebViewClient(new WebViewController());
         return root;
     }
