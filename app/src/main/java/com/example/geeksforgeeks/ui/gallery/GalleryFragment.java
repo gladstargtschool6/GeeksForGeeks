@@ -13,8 +13,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.geeksforgeeks.R;
-import com.example.geeksforgeeks.WebViewController;
+import com.wGladstarGTSchool_9279984.R;
+import com.wGladstarGTSchool_9279984.WebViewController;
 
 public class GalleryFragment extends Fragment {
 
