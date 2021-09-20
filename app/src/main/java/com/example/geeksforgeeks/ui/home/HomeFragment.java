@@ -1,4 +1,4 @@
-package com.example.geeksforgeeks.ui.home;
+package com.wGladstarGTSchool_9279984.ui.home;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -13,8 +13,8 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.geeksforgeeks.R;
-import com.example.geeksforgeeks.WebViewController;
+import com.wGladstarGTSchool_9279984.R;
+import com.wGladstarGTSchool_9279984.WebViewController;
 
 public class HomeFragment extends Fragment {
 
@@ -27,7 +27,7 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
         WebView webView=root.findViewById(R.id.web_view_home);
-        webView.loadUrl("https://www.geeksforgeeks.org/");
+        webView.loadUrl("https://app.schoology.com/school/2654352006/");
         webView.setWebViewClient(new WebViewController());
         return root;
     }
