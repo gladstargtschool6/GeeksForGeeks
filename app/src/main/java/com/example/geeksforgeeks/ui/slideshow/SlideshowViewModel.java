@@ -1,4 +1,4 @@
-package com.example.geeksforgeeks.ui.slideshow;
+package com.wGladstarGTSchool_9279984.ui.slideshow;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
