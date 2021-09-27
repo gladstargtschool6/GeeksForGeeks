@@ -27,7 +27,7 @@ public class GalleryFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_gallery, container, false);
 
         WebView webView=root.findViewById(R.id.web_view_practice);
-        webView.loadUrl("https://app.schoology.com/courses/");
+        webView.loadUrl("https://app.schoology.com/school/2654352006/courses/");
         webView.setWebViewClient(new WebViewController());
         return root;
     }
